@@ -1,0 +1,86 @@
+.topo_container {
+    max-width: 1024px;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.topo_container button {
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-right: 20px;
+    border: 1px solid #b2987d;
+    cursor: pointer;
+}
+
+.logo_img_light {
+    width: 150px;
+    height: auto;
+    filter: contrast(1);
+}
+
+.logo_img_dark {
+    width: 150px;
+    height: auto;
+    filter: contrast(1.8);
+}
+
+.button_icon {
+    width: 27px;
+    height: 27px;
+}
+
+.capa_container {
+    width: 100%;
+    height: 30vh;
+
+    background-image: url('https://elvislira.github.io/projeto_barbearia/assets/banner-barbearia.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.textos_container {
+    max-width: 1024px;
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    @media (max-width: 300px) {
+        font-size: 14px;
+    }
+}
+
+.textos_container p:first-of-type {
+    font-weight: bold;
+}
+
+.textos_container p:last-of-type {
+    font-family: 'Great Vibes';
+    font-size: 27px;
+    font-weight: bold;
+    color: #b2987d;;
+}
+
+.tema_dark {
+    background-color: #252323;
+    color: #ffffff;
+}
+
+.tema_light {
+    background-color: #ffffff;
+    color: #000000;
+}
